@@ -45,28 +45,25 @@ main > p {
 }
 
 .card {
-    width: calc(100% / 3 - 20px);
     background-color: #0F0E17;
-    float: left;
-    margin: 0 10px;
+   
 }
 
-
-
 .card-left {
-    float: left;
+    background-color: red;
     width: 200px;
     height: 200px;
+    float: left;
 }
 
 .card-left img {
     width: 100%;
 }
 
-.card-right   {
-    float: right;
-    color: #fff;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 14px;
+.card-right {
+    background-color : blue;
+    width: 400px;
+    height: 200px;
+    float: left;
+
 }
