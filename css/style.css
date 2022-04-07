@@ -15,6 +15,7 @@
     font-size: 40px;
     font-weight: bolder;
     color: #E53170;
+    padding-top: 20px;
     
 }
 
@@ -76,6 +77,6 @@ header {
 
 
 .card-right h3  {
-    font-size: 12px;
+    font-size: 18px;
     color: #3CCCEB;
 }
