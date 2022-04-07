@@ -30,7 +30,7 @@ p {
 
 header {
     margin: 0 auto;
-    width: 2000px;
+  
 }
 
 
@@ -38,11 +38,12 @@ header {
 
 
 .card {
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 30px - 30px );
     background: #0F0E17;
     height: 200px;
     float: left;
-    margin: 40px 20px;
+    margin: 20px 30px;
+
 
 }
 
