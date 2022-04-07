@@ -7,15 +7,9 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-main {
-    width: 1200px;
-    margin: 0 auto;
-    padding-top: 30px;
 
 
-}
-
-main > h1 {
+.team {
 
     text-align: center;
     font-size: 40px;
@@ -24,14 +18,33 @@ main > h1 {
     
 }
 
-main > p {
+p {
     padding-top: 50px ;
     color: #000;
     font-weight: 600;
     font-size: 16px;
+    padding-left: 30px;
     
 }
 
+
+header {
+    margin: 0 auto;
+    width: 2000px;
+}
+
+
+
+
+
+.card {
+    width: calc(100% / 3 - 40px);
+    background: #0F0E17;
+    height: 200px;
+    float: left;
+    margin: 40px 20px;
+
+}
 
 .clearfix::after {
     content: "";
@@ -39,33 +52,29 @@ main > p {
     clear: both;
 }
 
-.cards {
-    margin-top: 40px;
-    width: calc(100% / 3);
-   
-}
-
-.card {
-    background-color: #0F0E17;
-    width: 500px;
-    float: left;
-}
 
 .card-left {
-    background-color: #0F0E17;
-    width: 200px;
-    height: 200px;
     float: left;
-}
-
-.card-left img {
-    width: 100%;
 }
 
 .card-right {
-    background-color : #0F0E17;
-    width: 300px;
-    height: 200px;
     float: left;
+    padding: 20px 20px;
+    color : #fff;
+}
 
+.card-right h1 {
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+.card-right > * {
+    padding: 10px 10px;
+}
+
+
+.card-right h3  {
+    font-size: 12px;
+    color: #3CCCEB;
 }
