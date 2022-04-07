@@ -41,16 +41,18 @@ main > p {
 
 .cards {
     margin-top: 40px;
-
+    width: calc(100% / 3);
+   
 }
 
 .card {
     background-color: #0F0E17;
-   
+    width: 500px;
+    float: left;
 }
 
 .card-left {
-    background-color: red;
+    background-color: #0F0E17;
     width: 200px;
     height: 200px;
     float: left;
@@ -61,8 +63,8 @@ main > p {
 }
 
 .card-right {
-    background-color : blue;
-    width: 400px;
+    background-color : #0F0E17;
+    width: 300px;
     height: 200px;
     float: left;
 
