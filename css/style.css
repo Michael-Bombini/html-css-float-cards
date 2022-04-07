@@ -8,7 +8,7 @@
 }
 
 main {
-    width: 960px;
+    width: 1200px;
     margin: 0 auto;
     padding-top: 30px;
 
@@ -19,7 +19,7 @@ main > h1 {
 
     text-align: center;
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #E53170;
     
 }
@@ -33,3 +33,40 @@ main > p {
 }
 
 
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.cards {
+    margin-top: 40px;
+
+}
+
+.card {
+    width: calc(100% / 3 - 20px);
+    background-color: #0F0E17;
+    float: left;
+    margin: 0 10px;
+}
+
+
+
+.card-left {
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.card-left {
+    width: 100%;
+}
+
+.card-right {
+    float: right;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+}
